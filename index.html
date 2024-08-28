@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Example - Complex Data Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Performance Report</h1>
+    <!-- Complex table with an irrelevant summary -->
+    <table summary="This is a performance report table. The weather today is sunny with a slight chance of rain. 
+                    Remember to stay hydrated. Enjoy your day!">
+        <thead>
+            <tr>
+                <th>Department</th>
+                <th>Manager Name</th>
+                <th>Manager Score</th>
+                <th>Team Lead Name</th>
+                <th>Team Lead Score</th>
+                <th>Overall Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sales</td>
+                <td>John Doe</td>
+                <td>90%</td>
+                <td>Jane Smith</td>
+                <td>85%</td>
+                <td>87%</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Michael Brown</td>
+                <td>80%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Sarah Johnson</td>
+                <td>88%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Marketing</td>
+                <td>Emily Davis</td>
+                <td>88%</td>
+                <td>Alan White</td>
+                <td>90%</td>
+                <td>89%</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>David Wilson</td>
+                <td>87%</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
